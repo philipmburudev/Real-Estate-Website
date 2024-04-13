@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philip & Safari</title>
+  <!-- Linking the CSS file to the HTML file -->
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a class="logoo" href="index.html"> < Back </a>
+        </div>
+    </header>
+
+  <div class="container">
+    <form id="signupForm" action="homepage.html" method="post">
+        <div class="logo22">
+            <h1>Philip & Safari</h1>
+        </div>
+        
+        <h3>Sign In Here</h3>
+
+
+        <div class="name">
+            <label for="email"> Email</label>
+            <input type="email" placeholder="Email Address" id="email" name="email">
+        </div>
+
+        <div class="name">
+            <label for="password"> Password</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </div>
+
+        <div class="signinbtn">
+            <button type="button" onclick="login()">Sign In</button>
+        </div>
+       
+
+        <div class="login">
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </form>
+  </div>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <script src="signin.js"></script>
+
+</body>
+</html>
