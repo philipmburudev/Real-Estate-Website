@@ -1,12 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDweTQlUykT4d7Hj6atoDQQPbPa8jkQCzo",
-    authDomain: "real-estate-4d415.firebaseapp.com",
-    databaseURL: "https://real-estate-4d415-default-rtdb.firebaseio.com",
-    projectId: "real-estate-4d415",
-    storageBucket: "real-estate-4d415.appspot.com",
-    messagingSenderId: "741189993953",
-    appId: "1:741189993953:web:e0ce02189fdf13f378fea0",
-    measurementId: "G-5X2JS1Q1YX"
+    apiKey: "AIzaSyBaNuj6kKqpXMRbvC65inKOoP4SIyAHFWw",
+    authDomain: "real-estate-f9d3d.firebaseapp.com",
+    databaseURL: "https://real-estate-f9d3d-default-rtdb.firebaseio.com",
+    projectId: "real-estate-f9d3d",
+    storageBucket: "real-estate-f9d3d.appspot.com",
+    messagingSenderId: "271465900018",
+    appId: "1:271465900018:web:bf87f69bbdfd51be62ad6b",
+    measurementId: "G-MQ93YH83X7"
   };
 
 // Initialize Firebase
@@ -25,12 +25,12 @@ function register() {
   
     // Validate input fields
     if (!validate_email(email)){
-        alert('Email is Outta Line!!');
+        alert('Invalid Email. Kindly try again!');
         return;
     }
 
     if (!validate_password(password)){
-        alert('Password is Outta Line!!');
+        alert('Invalid Password. Kindly try again!');
         return;
     }
     
